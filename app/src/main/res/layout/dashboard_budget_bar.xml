@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_card"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="4dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="5dp"
+    android:backgroundTint="@color/white">
+
+    <!-- Row with "Budget Usage" and percentage -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Budget Usage"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_dark" />
+
+        <TextView
+            android:id="@+id/budget_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40%"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_green" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/budget_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginTop="8dp"
+        android:progress="40"
+        android:max="100"
+        android:progressTint="@color/primary_green"
+        android:backgroundTint="@color/light_green" />
+
+    <TextView
+        android:id="@+id/budget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹400 used of ₹1000"
+        android:textSize="14sp"
+        android:textColor="@color/text_dark"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

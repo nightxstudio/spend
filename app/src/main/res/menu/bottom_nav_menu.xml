@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard_selector" />
+    <item
+        android:id="@+id/addExpenseFragment"
+        android:title="Add"
+        android:icon="@drawable/ic_add_custom" />
+    <item
+        android:id="@+id/analyticsFragment"
+        android:title="Analytics"
+        android:icon="@drawable/ic_analytics" />
+    <item
+        android:id="@+id/budgetFragment"
+        android:title="Budget"
+        android:icon="@drawable/ic_budget" />
+    <item
+        android:id="@+id/achievementsFragment"
+        android:title="Achievements"
+        android:icon="@drawable/ic_trophy" />
+    <!--
+    <item
+        android:id="@+id/expenseHistoryFragment"
+        android:title="Expense History"
+        android:icon="@drawable/ic_trophy" />
+    -->
+</menu>

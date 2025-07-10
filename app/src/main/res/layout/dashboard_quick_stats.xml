@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_card"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="center"
+    android:elevation="4dp"
+    android:clipToPadding="false"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="5dp"
+    android:backgroundTint="@color/light_green">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textSize="14sp"
+            android:textColor="@color/text_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_today_amount"
+            android:text="₹0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This Week"
+            android:textSize="14sp"
+            android:textColor="@color/text_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_week_amount"
+            android:text="₹0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:textSize="14sp"
+            android:textColor="@color/text_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_last_week_amount"
+            android:text="₹0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green" />
+    </LinearLayout>
+</LinearLayout>

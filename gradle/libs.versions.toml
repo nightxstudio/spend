@@ -1,0 +1,23 @@
+[versions]
+androidGradlePlugin = "8.2.2"
+kotlin = "1.9.22"
+androidxAppCompat = "1.6.1"
+material = "1.11.0"
+constraintlayout = "2.1.4"
+navigation = "2.7.5"
+lifecycle = "2.6.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidxAppCompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+activity = { module = "androidx.activity:activity", version = "1.7.2" }
+
+navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigation" }
+navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigation" }
+
+lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }

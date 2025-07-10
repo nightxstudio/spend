@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.spendwise.DashboardFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.spendwise.fragments.AddExpenseFragment"
+        android:label="Add Expense" />
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.example.spendwise.fragments.AnalyticsFragment"
+        android:label="Analytics" />
+
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.example.spendwise.fragments.BudgetFragment"
+        android:label="Budget" />
+
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.example.spendwise.fragments.AchievementsFragment"
+        android:label="Achievements" />
+
+    <!-- Optional: Add this if you use Expense History in nav -->
+    <fragment
+        android:id="@+id/expenseHistoryFragment"
+        android:name="com.example.spendwise.fragments.ExpenseHistoryFragment"
+        android:label="Expense History" />
+</navigation>

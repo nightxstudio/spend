@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.SpendWise" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/text_light</item>
+        <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorOnSecondary">@color/text_light</item>
+
+        <!-- Surface and background -->
+        <item name="android:windowBackground">@color/background_green</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="android:colorBackground">@color/background_green</item>
+        <item name="colorOnBackground">@color/text_dark</item>
+
+        <!-- Navigation/Status Bars -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <!-- Text appearance (optional, will use Material defaults otherwise) -->
+        <!-- <item name="textAppearanceHeadline6">@style/YourCustomHeadline</item> -->
+    </style>
+
+    <!-- Active Theme -->
+    <style name="Theme.SpendWise" parent="Base.Theme.SpendWise" />
+</resources>
